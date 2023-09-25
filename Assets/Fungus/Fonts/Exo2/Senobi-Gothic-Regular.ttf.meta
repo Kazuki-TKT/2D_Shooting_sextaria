@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: da4fd0b9aea8ee64680f2013ae4194a2
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Senobi Gothic
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: c5fd1bc8592894548a099f49be360e7b, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
