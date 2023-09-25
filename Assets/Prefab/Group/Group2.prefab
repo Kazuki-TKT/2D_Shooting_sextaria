@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1562632745941179379
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5853789605306151233}
+  m_Layer: 0
+  m_Name: EndObj
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5853789605306151233
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1562632745941179379}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4893859812889483880}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2015760415597737247
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4893859812889483880}
+  - component: {fileID: 9197703706060606444}
+  m_Layer: 0
+  m_Name: Group2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4893859812889483880
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2015760415597737247}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5853789605306151233}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9197703706060606444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2015760415597737247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04ecff2cf90aa344caefbb11a568917d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _deleateObj: {fileID: 1562632745941179379}
+  _enemyPrefab:
+  - {fileID: 8434211148722362453, guid: d68b44213967d6043974d4e1f8bd7fe5, type: 3}
+  - {fileID: 8434211148722362453, guid: d68b44213967d6043974d4e1f8bd7fe5, type: 3}
+  - {fileID: 8434211148722362453, guid: 83cfab6dd52feba4780f19e1d75e75be, type: 3}
+  - {fileID: 8434211148722362453, guid: d68b44213967d6043974d4e1f8bd7fe5, type: 3}
+  - {fileID: 8434211148722362453, guid: d68b44213967d6043974d4e1f8bd7fe5, type: 3}
+  - {fileID: 8434211148722362453, guid: 83cfab6dd52feba4780f19e1d75e75be, type: 3}
+  - {fileID: 8434211148722362453, guid: d68b44213967d6043974d4e1f8bd7fe5, type: 3}
+  - {fileID: 8434211148722362453, guid: d68b44213967d6043974d4e1f8bd7fe5, type: 3}
+  - {fileID: 8434211148722362453, guid: 83cfab6dd52feba4780f19e1d75e75be, type: 3}
+  - {fileID: 8434211148722362453, guid: d68b44213967d6043974d4e1f8bd7fe5, type: 3}
+  enemyCreateTime: 0.5
+  firstCreateTime: 0.5
+  _nextGroup: {fileID: 0}

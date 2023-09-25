@@ -1,0 +1,530 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 422fa460374bc104f9356d831ae08fd9, type: 3}
+  m_Name: EnemyData
+  m_EditorClassIdentifier: 
+  enemyDatas:
+  - enemyName: MobT
+    no: 1
+    maxHp: 500
+    dropItemNos: 
+    scorePoint: 500
+  - enemyName: CreateBat
+    no: 2
+    maxHp: 50
+    dropItemNos: 
+    scorePoint: 0
+  - enemyName: "\u30AA\u30AF\u30B7\u30A2"
+    no: 10
+    maxHp: 2500
+    dropItemNos: 
+    scorePoint: 2000
+  - enemyName: "\u30AA\u30AF\u30B7\u30A2_Final"
+    no: 11
+    maxHp: 2000
+    dropItemNos: 
+    scorePoint: 2000
+  - enemyName: "\u30AA\u30AF\u30B7\u30A2_Ranshi"
+    no: 12
+    maxHp: 10000
+    dropItemNos: 
+    scorePoint: 2000
+  - enemyName: "\u30A2\u30C8\u30EA\u30A2"
+    no: 20
+    maxHp: 2000
+    dropItemNos: 
+    scorePoint: 2000
+  - enemyName: "\u30A2\u30C8\u30EA\u30A2_FINAL"
+    no: 21
+    maxHp: 2500
+    dropItemNos: 
+    scorePoint: 4000
+  - enemyName: "\u30A4\u30B6\u30EB"
+    no: 30
+    maxHp: 1700
+    dropItemNos: 
+    scorePoint: 2000
+  - enemyName: "\u30A4\u30B6\u30EB_FINAL"
+    no: 31
+    maxHp: 10000
+    dropItemNos: 
+    scorePoint: 2000
+  - enemyName: "\u30A6\u30A7\u30BA"
+    no: 40
+    maxHp: 2500
+    dropItemNos: 
+    scorePoint: 2000
+  - enemyName: "\u30A6\u30A7\u30BA_Final"
+    no: 41
+    maxHp: 2500
+    dropItemNos: 
+    scorePoint: 2000
+  - enemyName: "\u30A8\u30EB\u30CA\u30C8"
+    no: 50
+    maxHp: 1500
+    dropItemNos: 
+    scorePoint: 2000
+  - enemyName: "\u30A8\u30EB\u30CA\u30C8_Final"
+    no: 51
+    maxHp: 2400
+    dropItemNos: 
+    scorePoint: 2000
+  - enemyName: "\u4E73\u9695\u77F3"
+    no: 200
+    maxHp: 100
+    dropItemNos: 06000000
+    scorePoint: 400
+  - enemyName: "\u4E73\u9695\u77F3"
+    no: 20001
+    maxHp: 100
+    dropItemNos: 06000000070000000700000007000000
+    scorePoint: 400
+  - enemyName: "\u9695\u77F3"
+    no: 201
+    maxHp: 100
+    dropItemNos: 
+    scorePoint: 200
+  - enemyName: "\u9695\u77F3_\u30A2\u30A4\u30C6\u30E0_SS3"
+    no: 202
+    maxHp: 100
+    dropItemNos: 010000000100000001000000
+    scorePoint: 200
+  - enemyName: "\u9695\u77F3_\u30A2\u30A4\u30C6\u30E0_SS2/SB1"
+    no: 203
+    maxHp: 100
+    dropItemNos: 010000000100000000000000
+    scorePoint: 200
+  - enemyName: "\u9695\u77F3_\u30A2\u30A4\u30C6\u30E0_PS2"
+    no: 204
+    maxHp: 100
+    dropItemNos: 0300000003000000
+    scorePoint: 200
+  - enemyName: "\u9695\u77F3_\u30A2\u30A4\u30C6\u30E0_PS2/SB1"
+    no: 205
+    maxHp: 100
+    dropItemNos: 030000000300000000000000
+    scorePoint: 200
+  - enemyName: "\u9695\u77F3_\u30A2\u30A4\u30C6\u30E0_PB1"
+    no: 206
+    maxHp: 200
+    dropItemNos: 02000000
+    scorePoint: 200
+  - enemyName: "\u9695\u77F3_\u30A2\u30A4\u30C6\u30E0_PB2"
+    no: 207
+    maxHp: 200
+    dropItemNos: 020000000200000003000000
+    scorePoint: 200
+  - enemyName: "\u9695\u77F3_\u30A2\u30A4\u30C6\u30E0_PB2"
+    no: 208
+    maxHp: 200
+    dropItemNos: 010000000200000007000000
+    scorePoint: 200
+  - enemyName: "\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\uFF3F\u9695\u77F3"
+    no: 1000
+    maxHp: 100
+    dropItemNos: 
+    scorePoint: 0
+  - enemyName: "\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\uFF3F\u5B87\u5B99\u751F\u7269"
+    no: 1001
+    maxHp: 100
+    dropItemNos: 
+    scorePoint: 0
+  - enemyName: "\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\uFF3F\u5B87\u5B99\u751F\u72692"
+    no: 1002
+    maxHp: 100
+    dropItemNos: 08000000
+    scorePoint: 0
+  - enemyName: "\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\uFF3F\u9695\u77F3"
+    no: 1003
+    maxHp: 120
+    dropItemNos: 03000000
+    scorePoint: 0
+  - enemyName: "\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\uFF3F\u5B87\u5B99\u751F\u72693"
+    no: 1004
+    maxHp: 200
+    dropItemNos: 03000000
+    scorePoint: 0
+  - enemyName: "\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\uFF3F\u30BB\u30AF\u30B9\u30BF\u30EA\u30A2"
+    no: 1005
+    maxHp: 500
+    dropItemNos: 
+    scorePoint: 0
+  - enemyName: Man_Y
+    no: 2001
+    maxHp: 40
+    dropItemNos: 00000000
+    scorePoint: 300
+  - enemyName: Man_Y2
+    no: 20012
+    maxHp: 40
+    dropItemNos: 0100000001000000
+    scorePoint: 300
+  - enemyName: Man_Y3
+    no: 20013
+    maxHp: 40
+    dropItemNos: 010000000100000001000000
+    scorePoint: 300
+  - enemyName: Man_Y4
+    no: 20014
+    maxHp: 60
+    dropItemNos: 0000000001000000
+    scorePoint: 300
+  - enemyName: Man_G
+    no: 2002
+    maxHp: 40
+    dropItemNos: 01000000
+    scorePoint: 300
+  - enemyName: Man_G_RS1
+    no: 20022
+    maxHp: 40
+    dropItemNos: 05000000
+    scorePoint: 300
+  - enemyName: Man_G_RS2
+    no: 20023
+    maxHp: 40
+    dropItemNos: 0500000005000000
+    scorePoint: 300
+  - enemyName: Man_G_RB1
+    no: 20024
+    maxHp: 40
+    dropItemNos: 04000000
+    scorePoint: 300
+  - enemyName: Man_B
+    no: 2003
+    maxHp: 40
+    dropItemNos: 01000000
+    scorePoint: 300
+  - enemyName: Man_B_PS1/PB1
+    no: 20032
+    maxHp: 40
+    dropItemNos: 0300000002000000
+    scorePoint: 300
+  - enemyName: Man_B_PS2/PB1
+    no: 20033
+    maxHp: 40
+    dropItemNos: 020000000300000003000000
+    scorePoint: 300
+  - enemyName: Man_B_PS1/PB1
+    no: 20034
+    maxHp: 40
+    dropItemNos: 0200000003000000
+    scorePoint: 300
+  - enemyName: Man_B_PS1/PB1
+    no: 20035
+    maxHp: 40
+    dropItemNos: 03000000
+    scorePoint: 300
+  - enemyName: Man_B_PS1/PB1
+    no: 20036
+    maxHp: 40
+    dropItemNos: 0300000003000000
+    scorePoint: 300
+  - enemyName: Shiri_R
+    no: 2004
+    maxHp: 200
+    dropItemNos: 000000000100000003000000
+    scorePoint: 600
+  - enemyName: Shiri_R1
+    no: 20041
+    maxHp: 200
+    dropItemNos: 000000000200000002000000
+    scorePoint: 600
+  - enemyName: Shiri_Re3
+    no: 20042
+    maxHp: 200
+    dropItemNos: 000000000000000003000000
+    scorePoint: 600
+  - enemyName: Shiri_Re4
+    no: 200433
+    maxHp: 300
+    dropItemNos: 000000000000000003000000
+    scorePoint: 600
+  - enemyName: Shiri_Bl
+    no: 20043
+    maxHp: 260
+    dropItemNos: 000000000200000002000000
+    scorePoint: 600
+  - enemyName: Shiri_Bl
+    no: 200432
+    maxHp: 300
+    dropItemNos: 000000000200000002000000
+    scorePoint: 600
+  - enemyName: Shiri_Gr
+    no: 20044
+    maxHp: 300
+    dropItemNos: 000000000400000001000000
+    scorePoint: 600
+  - enemyName: Shiri_Gr2
+    no: 20045
+    maxHp: 300
+    dropItemNos: 000000000400000005000000
+    scorePoint: 600
+  - enemyName: Shiri_Gr3
+    no: 20046
+    maxHp: 300
+    dropItemNos: 070000000400000005000000
+    scorePoint: 600
+  - enemyName: Chinpo_Vi
+    no: 2005
+    maxHp: 200
+    dropItemNos: 000000000100000003000000
+    scorePoint: 500
+  - enemyName: Chinpo_Vi2
+    no: 20051
+    maxHp: 250
+    dropItemNos: 00000000010000000300000004000000
+    scorePoint: 500
+  - enemyName: Chinpo_ViBIG
+    no: 20052
+    maxHp: 700
+    dropItemNos: 00000000020000000400000007000000
+    scorePoint: 800
+  - enemyName: Chinpo_Gr_SS1/RS2
+    no: 2010
+    maxHp: 200
+    dropItemNos: 010000000500000005000000
+    scorePoint: 500
+  - enemyName: Chinpo_Gr_SS1/RB2
+    no: 20101
+    maxHp: 200
+    dropItemNos: 010000000400000004000000
+    scorePoint: 500
+  - enemyName: Pizr_Bl
+    no: 2006
+    maxHp: 80
+    dropItemNos: 0200000003000000
+    scorePoint: 300
+  - enemyName: Pizr_Bl-2
+    no: 20061
+    maxHp: 80
+    dropItemNos: 030000000300000000000000
+    scorePoint: 300
+  - enemyName: Pizr_Ye
+    no: 2008
+    maxHp: 80
+    dropItemNos: 0100000001000000
+    scorePoint: 500
+  - enemyName: Pizr_Ye1
+    no: 20081
+    maxHp: 80
+    dropItemNos: 010000000100000001000000
+    scorePoint: 500
+  - enemyName: Pizr_Ye2
+    no: 20082
+    maxHp: 80
+    dropItemNos: 0000000001000000
+    scorePoint: 500
+  - enemyName: Pizr_Ye3
+    no: 20082
+    maxHp: 80
+    dropItemNos: 0500000001000000
+    scorePoint: 500
+  - enemyName: Pizr_Gr
+    no: 2021
+    maxHp: 80
+    dropItemNos: 010000000400000004000000
+    scorePoint: 500
+  - enemyName: Shiri_B
+    no: 2007
+    maxHp: 200
+    dropItemNos: 
+    scorePoint: 500
+  - enemyName: sextaria_Bl_SB1/SS1/PS1
+    no: 2009
+    maxHp: 230
+    dropItemNos: 00000000010000000300000003000000
+    scorePoint: 1000
+  - enemyName: sextaria_Bl_SP/SS1/PS1
+    no: 20091
+    maxHp: 230
+    dropItemNos: 070000000100000003000000
+    scorePoint: 1000
+  - enemyName: sextaria_Bl_SP/PB2/PS1
+    no: 20092
+    maxHp: 230
+    dropItemNos: 07000000020000000200000003000000
+    scorePoint: 1000
+  - enemyName: sextaria_Re_SB3/PB1/RB1
+    no: 2011
+    maxHp: 400
+    dropItemNos: 0000000000000000000000000200000004000000
+    scorePoint: 700
+  - enemyName: sextaria_2
+    no: 20111
+    maxHp: 400
+    dropItemNos: 00000000020000000200000004000000
+    scorePoint: 700
+  - enemyName: sextaria_2
+    no: 201113
+    maxHp: 300
+    dropItemNos: 00000000000000000200000004000000
+    scorePoint: 700
+  - enemyName: sextaria_Gr_SB3/PB1/RB1
+    no: 2012
+    maxHp: 300
+    dropItemNos: 04000000050000000000000007000000
+    scorePoint: 700
+  - enemyName: sextaria_Ye_SB3/PB1/RB1
+    no: 20122
+    maxHp: 300
+    dropItemNos: 0000000002000000040000000500000002000000
+    scorePoint: 700
+  - enemyName: sextaria_Ye_SB3/PB1/RB1
+    no: 20127
+    maxHp: 300
+    dropItemNos: 00000000000000000100000006000000
+    scorePoint: 700
+  - enemyName: houkei_Ye
+    no: 2050
+    maxHp: 100
+    dropItemNos: 010000000100000001000000
+    scorePoint: 380
+  - enemyName: houkei_Bl
+    no: 2051
+    maxHp: 100
+    dropItemNos: 020000000000000000000000
+    scorePoint: 380
+  - enemyName: houkei_Gr
+    no: 2052
+    maxHp: 100
+    dropItemNos: 000000000400000005000000
+    scorePoint: 380
+  - enemyName: Sentouki_Re
+    no: 3000
+    maxHp: 80
+    dropItemNos: 010000000100000001000000
+    scorePoint: 300
+  - enemyName: Sentouki_Re2
+    no: 3001
+    maxHp: 80
+    dropItemNos: 0000000001000000
+    scorePoint: 300
+  - enemyName: Sentouki_Re2
+    no: 300111
+    maxHp: 80
+    dropItemNos: 0100000005000000
+    scorePoint: 300
+  - enemyName: Sentouki_Re3
+    no: 3002
+    maxHp: 80
+    dropItemNos: 010000000300000003000000
+    scorePoint: 300
+  - enemyName: Sentouki_Gr
+    no: 3010
+    maxHp: 80
+    dropItemNos: 010000000100000001000000
+    scorePoint: 300
+  - enemyName: Sentouki_Gr
+    no: 3013
+    maxHp: 40
+    dropItemNos: 010000000100000001000000
+    scorePoint: 300
+  - enemyName: Sentouki_Gr
+    no: 30133
+    maxHp: 40
+    dropItemNos: 0500000001000000
+    scorePoint: 300
+  - enemyName: Sentouki_Gr
+    no: 301335
+    maxHp: 40
+    dropItemNos: 0500000005000000
+    scorePoint: 300
+  - enemyName: Sentouki_Gr2
+    no: 3011
+    maxHp: 80
+    dropItemNos: 0300000001000000
+    scorePoint: 300
+  - enemyName: Sentouki_Gr2
+    no: 3014
+    maxHp: 40
+    dropItemNos: 0300000001000000
+    scorePoint: 300
+  - enemyName: Sentouki_Gr2
+    no: 30144
+    maxHp: 40
+    dropItemNos: 0200000001000000
+    scorePoint: 300
+  - enemyName: Sentouki_Gr2
+    no: 30147
+    maxHp: 40
+    dropItemNos: 0400000001000000
+    scorePoint: 300
+  - enemyName: Sentouki_Pu1
+    no: 3012
+    maxHp: 80
+    dropItemNos: 0000000001000000
+    scorePoint: 300
+  - enemyName: Sentouki_Pu1
+    no: 3016
+    maxHp: 80
+    dropItemNos: 000000000100000002000000
+    scorePoint: 300
+  - enemyName: Sentouki_Bl
+    no: 3020
+    maxHp: 100
+    dropItemNos: 020000000300000001000000
+    scorePoint: 300
+  - enemyName: Sentouki_Bl
+    no: 3019
+    maxHp: 100
+    dropItemNos: 020000000300000001000000
+    scorePoint: 300
+  - enemyName: Sentouki_CS
+    no: 3022
+    maxHp: 20
+    dropItemNos: 010000000100000001000000
+    scorePoint: 200
+  - enemyName: Sentouki_BigGr
+    no: 3030
+    maxHp: 700
+    dropItemNos: 00000000000000000200000004000000
+    scorePoint: 1200
+  - enemyName: Sentouki_BigGray1
+    no: 3041
+    maxHp: 450
+    dropItemNos: 0000000000000000020000000400000006000000
+    scorePoint: 900
+  - enemyName: Sentouki_BigGray
+    no: 3040
+    maxHp: 450
+    dropItemNos: 0000000000000000020000000400000007000000
+    scorePoint: 900
+  - enemyName: Sentouki_BigShip
+    no: 3042
+    maxHp: 3500
+    dropItemNos: 00000000000000000200000004000000070000000500000004000000
+    scorePoint: 3000
+  - enemyName: Vanp1
+    no: 3060
+    maxHp: 60
+    dropItemNos: 0100000000000000
+    scorePoint: 300
+  - enemyName: Vanp2
+    no: 3061
+    maxHp: 60
+    dropItemNos: 0300000003000000
+    scorePoint: 300
+  - enemyName: Vanp3
+    no: 3062
+    maxHp: 60
+    dropItemNos: 0500000001000000
+    scorePoint: 300
+  - enemyName: Vanp4
+    no: 3063
+    maxHp: 60
+    dropItemNos: 0500000003000000
+    scorePoint: 300
+  - enemyName: Vanp5
+    no: 3064
+    maxHp: 60
+    dropItemNos: 050000000000000002000000
+    scorePoint: 300
